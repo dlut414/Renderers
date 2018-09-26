@@ -1,0 +1,8 @@
+advanced version of v2.2
+include class "PartToCube"
+recreation of class "PartToCube"
+transfer data from particle type to cube
+render data defined by class "Cube"
+
+add class "PartToPart"
+render data defined by class "PartToPart"

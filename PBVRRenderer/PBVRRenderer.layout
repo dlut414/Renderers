@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="Camera.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="734" topLine="0" />
+	</File>
+	<File name="Camera.h" open="0" top="0" tabpos="10">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="Cube.h" open="0" top="0" tabpos="8">
+		<Cursor position="115" topLine="89" />
+	</File>
+	<File name="PartGen.h" open="0" top="0" tabpos="4">
+		<Cursor position="4446" topLine="66" />
+	</File>
+	<File name="PartToCube.h" open="0" top="0" tabpos="10">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="PartToPart.h" open="0" top="0" tabpos="5">
+		<Cursor position="5275" topLine="18" />
+	</File>
+	<File name="PartToTri.h" open="1" top="1" tabpos="5">
+		<Cursor position="733" topLine="0" />
+	</File>
+	<File name="PartTo_.h" open="1" top="0" tabpos="3">
+		<Cursor position="582" topLine="0" />
+	</File>
+	<File name="RandPoint.h" open="0" top="0" tabpos="9">
+		<Cursor position="1292" topLine="7" />
+	</File>
+	<File name="Renderer.h" open="1" top="0" tabpos="2">
+		<Cursor position="9090" topLine="0" />
+	</File>
+	<File name="Volume.h" open="0" top="0" tabpos="4">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="Voxel.h" open="0" top="0" tabpos="11">
+		<Cursor position="3774" topLine="24" />
+	</File>
+	<File name="common.h" open="1" top="0" tabpos="4">
+		<Cursor position="217" topLine="0" />
+	</File>
+	<File name="header.h" open="0" top="0" tabpos="15">
+		<Cursor position="534" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="774" topLine="0" />
+	</File>
+	<File name="shader1/fragment.glsl" open="0" top="0" tabpos="7">
+		<Cursor position="1493" topLine="0" />
+	</File>
+	<File name="shader1/vertex.glsl" open="0" top="0" tabpos="8">
+		<Cursor position="768" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

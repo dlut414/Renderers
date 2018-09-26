@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RTRenderer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RTRenderer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RTRenderer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Camera.h" />
+		<Unit filename="Controller.h" />
+		<Unit filename="DrawTriangle.h" />
+		<Unit filename="DrawWater.h" />
+		<Unit filename="Draw_.h" />
+		<Unit filename="PartToCube.h" />
+		<Unit filename="PartTo_.h" />
+		<Unit filename="Renderer.h" />
+		<Unit filename="Shader.h" />
+		<Unit filename="Voxel.h" />
+		<Unit filename="common.h" />
+		<Unit filename="header.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shader0/fragment.glsl" />
+		<Unit filename="shader0/vertex.glsl" />
+		<Unit filename="shader1/fragment.glsl" />
+		<Unit filename="shader1/vertex.glsl" />
+		<Unit filename="shader2/fragment.glsl" />
+		<Unit filename="shader2/vertex.glsl" />
+		<Unit filename="shader3/fragment.glsl" />
+		<Unit filename="shader3/vertex.glsl" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

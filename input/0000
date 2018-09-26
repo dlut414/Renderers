@@ -1,0 +1,28 @@
+#define PART_DIS    0.5f
+#define DELTA_T     2.f
+
+#define TYPE        0
+#define RZERO       0.013f
+#define BETA        0.85f
+#define MESHWIDTH   0.006f
+
+#define START       5
+
+using namespace std;
+
+int main(int argc, char** argv)
+{
+    Renderer::i_file = START;
+    Renderer::f_pointRadius = PART_DIS * MESHWIDTH;
+
+    Renderer::data_obj = new PartToPart(TYPE, RZERO, MESHWIDTH, 0.8f, 1.f);
+    Renderer::part_obj = new PartGen(PART_DIS * MESHWIDTH, DELTA_T, 0);
+
+    Renderer::InitOBJ   ();
+    Renderer::Init      (argc, argv);
+    Renderer::MainLoop  ();
+    Renderer::Final     ();
+
+    return 0;
+}
+

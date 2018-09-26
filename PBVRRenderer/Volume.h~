@@ -1,0 +1,18 @@
+/*LICENSE*/
+#ifndef CELL_H
+#define CELL_H
+
+template <typename I, typename R>
+
+class Cell
+{
+public:
+    Cell() {}
+    ~Cell() {}
+
+public:
+    BBox box;
+
+};
+
+#endif // CELL_H

@@ -1,0 +1,1019 @@
+# depslib dependency file v1.0
+1407922942 source:/home/kozuki/Desktop/projects/MCRenderer/Camera.cpp
+	"Camera.h"
+
+1407922998 /home/kozuki/Desktop/projects/MCRenderer/Camera.h
+	"header.h"
+
+1407918440 /home/kozuki/Desktop/projects/MCRenderer/header.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<ctime>
+	"../common/GL/glew.h"
+	<GL/wglew.h>
+	<GL/freeglut.h>
+	"../common/glm/glm.hpp"
+	"../common/glm/gtc/type_ptr.hpp"
+	"../common/glm/gtx/transform.hpp"
+	"../common/glm/gtx/quaternion.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/_fixes.hpp
+	<cmath>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1396281660 /home/kozuki/Desktop/projects/common/glm/detail/setup.hpp
+	<cassert>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/precision.hpp
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/_swizzle.hpp
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/_swizzle_func.hpp
+
+1393328878 /home/kozuki/Desktop/projects/common/glm/detail/type_vec2.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1393328878 /home/kozuki/Desktop/projects/common/glm/detail/type_vec3.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_vec4.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x2.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x3.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat2x4.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x2.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x3.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat3x4.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x2.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x3.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/type_mat4x4.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1393328878 /home/kozuki/Desktop/projects/common/glm/detail/type_vec1.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1396282506 /home/kozuki/Desktop/projects/common/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_vector_relational.inl
+	<limits>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/common.hpp
+	"detail/func_common.hpp"
+
+1391866102 /home/kozuki/Desktop/projects/common/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/packing.hpp
+	"detail/func_packing.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/detail/func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/type_half.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1396281936 /home/kozuki/Desktop/projects/common/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/integer.hpp
+	"detail/func_integer.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/detail/func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1395764754 /home/kozuki/Desktop/projects/common/glm/detail/func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtc/constants.inl
+	<limits>
+
+1393326794 /home/kozuki/Desktop/projects/common/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtc/type_ptr.inl
+	<cstring>
+
+1394891148 /home/kozuki/Desktop/projects/common/glm/gtx/transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"matrix_transform.inl"
+
+1394909948 /home/kozuki/Desktop/projects/common/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtx/transform.inl
+
+1394891148 /home/kozuki/Desktop/projects/common/glm/gtx/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1394891148 /home/kozuki/Desktop/projects/common/glm/gtx/norm.hpp
+	"../glm.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtx/norm.inl
+
+1389454680 /home/kozuki/Desktop/projects/common/glm/gtx/quaternion.inl
+	<limits>
+
+1407936052 source:/home/kozuki/Desktop/projects/MCRenderer/main.cpp
+	<iostream>
+	"BBox.h"
+	"PartToTri.h"
+	"Renderer.h"
+
+1407922950 /home/kozuki/Desktop/projects/MCRenderer/BBox.h
+	<limits>
+	"Point.h"
+	"Vector.h"
+
+1407922998 /home/kozuki/Desktop/projects/MCRenderer/Point.h
+	"Vector.h"
+
+1407922998 /home/kozuki/Desktop/projects/MCRenderer/Vector.h
+
+1407922998 /home/kozuki/Desktop/projects/MCRenderer/Renderer.h
+	<cstdio>
+	"header.h"
+	"Camera.h"
+	"common.h"
+	"Point.h"
+	"PartToTri.h"
+
+1407922998 /home/kozuki/Desktop/projects/MCRenderer/common.h
+
+1407936553 /home/kozuki/Desktop/projects/MCRenderer/PartToTri.h
+	<cmath>
+	"common.h"
+	"Voxel.h"
+	"PartTo_.h"
+	"mc_table.h"
+
+1407938232 /home/kozuki/Desktop/projects/MCRenderer/PartTo_.h
+	<cstdio>
+	<vector>
+	"Point.h"
+	"BBox.h"
+	"Voxel.h"
+
+1407922984 /home/kozuki/Desktop/projects/MCRenderer/mc_table.h
+
+1407794104 source:/home/kozuki/Desktop/project/MCRenderer/Camera.cpp
+	"Camera.h"
+
+1407794100 /home/kozuki/Desktop/project/MCRenderer/Camera.h
+	"header.h"
+
+1407864445 /home/kozuki/Desktop/project/MCRenderer/header.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+	<ctime>
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/freeglut.h>
+	"../common/glm/glm.hpp"
+	"../common/glm/gtc/type_ptr.hpp"
+	"../common/glm/gtx/transform.hpp"
+	"../common/glm/gtx/quaternion.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/_fixes.hpp
+	<cmath>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1396281660 /home/kozuki/Desktop/project/common/glm/detail/setup.hpp
+	<cassert>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_float.hpp
+	"setup.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/precision.hpp
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_mat.hpp
+	"precision.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/vec2.hpp
+	"detail/type_vec2.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/_swizzle.hpp
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/_swizzle_func.hpp
+
+1393328878 /home/kozuki/Desktop/project/common/glm/detail/type_vec2.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/vec3.hpp
+	"detail/type_vec3.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1393328878 /home/kozuki/Desktop/project/common/glm/detail/type_vec3.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/vec4.hpp
+	"detail/type_vec4.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_vec4.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x2.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x3.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat2x4.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x2.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x3.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat3x4.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x2.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x3.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/type_mat4x4.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1393328878 /home/kozuki/Desktop/project/common/glm/detail/type_vec1.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/exponential.hpp
+	"detail/func_exponential.hpp"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1396282506 /home/kozuki/Desktop/project/common/glm/detail/func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_vector_relational.inl
+	<limits>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/common.hpp
+	"detail/func_common.hpp"
+
+1391866102 /home/kozuki/Desktop/project/common/glm/detail/func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/packing.hpp
+	"detail/func_packing.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/detail/func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/type_half.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/geometric.hpp
+	"detail/func_geometric.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1396281936 /home/kozuki/Desktop/project/common/glm/detail/func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/matrix.hpp
+	"detail/func_matrix.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/integer.hpp
+	"detail/func_integer.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/detail/func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1395764754 /home/kozuki/Desktop/project/common/glm/detail/func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtc/type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/gtc/quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1393326794 /home/kozuki/Desktop/project/common/glm/gtc/constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtc/constants.inl
+	<limits>
+
+1393326794 /home/kozuki/Desktop/project/common/glm/gtc/quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtc/type_ptr.inl
+	<cstring>
+
+1394891148 /home/kozuki/Desktop/project/common/glm/gtx/transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtc/matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"matrix_transform.inl"
+
+1394909948 /home/kozuki/Desktop/project/common/glm/gtc/matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtx/transform.inl
+
+1394891148 /home/kozuki/Desktop/project/common/glm/gtx/quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1394891148 /home/kozuki/Desktop/project/common/glm/gtx/norm.hpp
+	"../glm.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtx/norm.inl
+
+1389454680 /home/kozuki/Desktop/project/common/glm/gtx/quaternion.inl
+	<limits>
+
+1407876225 source:/home/kozuki/Desktop/project/MCRenderer/main.cpp
+	<iostream>
+	"BBox.h"
+	"PartToTri.h"
+	"Renderer.h"
+
+1407867208 /home/kozuki/Desktop/project/MCRenderer/BBox.h
+	<limits>
+	"Point.h"
+	"Vector.h"
+
+1407794116 /home/kozuki/Desktop/project/MCRenderer/Point.h
+	"Vector.h"
+
+1407794118 /home/kozuki/Desktop/project/MCRenderer/Vector.h
+
+1407873542 /home/kozuki/Desktop/project/MCRenderer/PartToTri.h
+	<cmath>
+	"common.h"
+	"PartTo_.h"
+	"mc_table.h"
+
+1407794108 /home/kozuki/Desktop/project/MCRenderer/common.h
+
+1407794096 /home/kozuki/Desktop/project/MCRenderer/PartTo_.h
+	<cstdio>
+	<vector>
+	"Point.h"
+	"BBox.h"
+
+1407794110 /home/kozuki/Desktop/project/MCRenderer/mc_table.h
+
+1407876269 /home/kozuki/Desktop/project/MCRenderer/Renderer.h
+	"header.h"
+	"Camera.h"
+	"common.h"
+	"Point.h"
+
+1396009921 /home/kozuki/Desktop/projects/common/GL/glew.h
+	<stddef.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1407937051 /home/kozuki/Desktop/projects/MCRenderer/Voxel.h
+	<vector>
+

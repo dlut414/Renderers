@@ -1,0 +1,25 @@
+/*LICENSE*/
+#ifndef RANDNUM_H
+#define RANDNUM_H
+
+#include <cstdlib>
+class RandNum
+{
+public:
+    RandNum(const unsigned& _seed = 0) : seed(_seed);
+    {
+        srand(seed);
+    }
+    ~RandNum()
+    {}
+
+    inline float genRandFloat()
+    {
+        return static_cast<float>( static_cast<float>(rand()) / static_cast<float>(RAND_MAX) );
+    }
+
+private:
+    unsigned seed;
+};
+
+#endif // RANDNUM_H
